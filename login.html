@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon2.png" type="">
+
+  <title> The Hunger Bounce </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
+    crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <section class="vh-100" style="background-color: aliceblue;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-xl-10">
+          <div class="card" style="border-radius: 1rem;">
+            <div class="row g-0">
+              <div class="col-md-6 col-lg-5 d-none d-md-block" style="margin-top:5%; margin-left:-15px;">
+                <img src="images/dont.png" alt="login form" class="img-fluid " style="border-radius: 1rem 0 0 1rem;" />
+              </div>
+              <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                <div class="card-body p-4 p-lg-5 text-black" ">
+
+                  <!-- LOGIN FORM -->
+                  <form action="login_process.php" method="POST">
+                    
+                    <!-- begin logo image -->
+                    <div>
+                      <a href="index.html">
+                        <img src="images/thb2.png"
+                          style="width: 398px;height: 200px;margin-left: 9px; margin-bottom: 30px; margin-top: 15px;">
+                      </a>
+                    </div>
+                    <!-- end logo image -->
+                    <h5 class="fw-normal mb-3 " style="letter-spacing: 1px;">Log in</h5>
+
+                    <div class="form-outline mb-4">
+                      <input type="tel" name="customer_mobile_no" pattern="[0-9]{10}" title="Invalid mobile number"
+                        id="registerPhone" class="form-control form-control-lg" placeholder="Phone number" required />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input type="password" name="customer_password" id="form2Example27" class="form-control form-control-lg"
+                        placeholder="Password" required />
+                    </div>
+
+                    <div class="pt-1 mb-4">
+                      <button class="btn btn-dark btn-lg btn-block" name="customer_login" type="submit">Log in</button>
+                    </div>
+
+                    <!--<a class="small text-muted" href="#!">Forgot password?</a>-->
+                    <p style="color: #393f81; margin-top:15px;" class="mb-5 pb-lg-2">New on THB? <a href="signup.html"
+                        style="color: #9c703a;"> <object hspace="5px;">Sign up</object></a>
+                    </p>
+                  </form>
+                  <!-- LOGIN FORM END -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
